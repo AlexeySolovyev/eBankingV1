@@ -1,0 +1,4 @@
+2021-06-14 12:48:40,938 [main] INFO e-banking - URL is opened
+2021-06-14 12:48:41,055 [main] INFO e-banking - Entered username
+2021-06-14 12:48:41,109 [main] INFO e-banking - Entered password
+2021-06-14 12:48:41,486 [main] INFO e-banking - Login test passed
