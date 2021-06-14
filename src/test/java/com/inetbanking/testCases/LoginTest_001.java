@@ -10,9 +10,9 @@ public class LoginTest_001 extends BaseClass {
     public void LoginTest() {
         driver.get(baseURL);
         logger.info("URL is opened");
-        LoginPage loginPage = new LoginPage(driver);
 
-        loginPage.setUserName(userName);
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.setUserName(username);
         logger.info("Entered username");
 
         loginPage.setPassword(password);

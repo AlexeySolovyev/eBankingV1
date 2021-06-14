@@ -6,16 +6,42 @@ import java.util.Properties;
 
 public class ReadConfig {
 
-    Properties properties;
+    Properties pro;
 
-    public void ReadConf() {
+    public ReadConfig() {
         File src = new File("./Configuration/config.properties");
+
         try {
             FileInputStream fis = new FileInputStream(src);
-            properties = new Properties();
-            properties.load(fis);
+            pro = new Properties();
+            pro.load(fis);
         } catch (Exception e) {
             System.out.println("Exception is " + e.getMessage());
         }
+    }
+
+    public String getApplicationURL() {
+        String url = pro.getProperty("baseURL");
+        return url;
+    }
+
+    public String getUsername() {
+        String username = pro.getProperty("username");
+        return username;
+    }
+
+    public String getUserPassword() {
+        String password = pro.getProperty("password");
+        return password;
+    }
+
+    public String getChromePath() {
+        String chromepath = pro.getProperty("chromepath");
+        return chromepath;
+    }
+
+    public String getFireFox() {
+        String firefoxpath = pro.getProperty("firefoxpath");
+        return firefoxpath;
     }
 }
