@@ -8,10 +8,10 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 
-    WebDriver ldriver;
-    public LoginPage(WebDriver rdriver) {
-        ldriver = rdriver;
-        PageFactory.initElements(rdriver, this);
+    WebDriver localDriver;
+    public LoginPage(WebDriver remoteDriver) {
+        localDriver = remoteDriver;
+        PageFactory.initElements(remoteDriver, this);
     }
 
     @FindBy(name = "uid")

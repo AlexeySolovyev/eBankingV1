@@ -1,14 +1,22 @@
 package com.inetbanking.testCases;
 
+import com.aventstack.extentreports.utils.FileUtil;
 import com.inetbanking.utilities.ReadConfig;
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
+
+import java.io.File;
+import java.io.IOException;
 
 public class BaseClass {
 
@@ -40,5 +48,13 @@ public class BaseClass {
     @AfterClass
     public void tearDown() {
         driver.quit();
+    }
+
+    public void captureScreen(WebDriver driver, String testName) throws IOException {
+        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+        File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
+        File target = new File(System.getProperty("user.dir") + "/Screenshots/" + testName + ".png");
+        FileUtils.copyFile(source, target);
+        System.out.println("Screenshot taken");
     }
 }
