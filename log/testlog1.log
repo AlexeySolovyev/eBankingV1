@@ -22,3 +22,15 @@
 2021-06-14 18:59:20,664 [main] INFO e-banking - Entered username
 2021-06-14 18:59:20,720 [main] INFO e-banking - Entered password
 2021-06-14 18:59:21,058 [main] INFO e-banking - Login test passed
+2021-06-14 20:02:48,691 [main] INFO e-banking - URL is opened
+2021-06-14 20:02:48,807 [main] INFO e-banking - Entered username
+2021-06-14 20:02:48,862 [main] INFO e-banking - Entered password
+2021-06-14 20:02:49,205 [main] INFO e-banking - Login test passed
+2021-06-14 20:24:07,364 [main] INFO e-banking - URL is opened
+2021-06-14 20:24:07,477 [main] INFO e-banking - Entered username
+2021-06-14 20:24:07,530 [main] INFO e-banking - Entered password
+2021-06-14 20:24:07,865 [main] INFO e-banking - Login test passed
+2021-06-14 20:24:32,693 [main] INFO e-banking - URL is opened
+2021-06-14 20:24:32,758 [main] INFO e-banking - Entered username
+2021-06-14 20:24:32,777 [main] INFO e-banking - Entered password
+2021-06-14 20:24:33,116 [main] INFO e-banking - Login test passed

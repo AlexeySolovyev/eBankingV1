@@ -20,7 +20,7 @@ public class ReadConfig {
         }
     }
 
-    public String getApplicationURL() {
+    public String getURL() {
         String url = pro.getProperty("baseURL");
         return url;
     }
@@ -40,7 +40,7 @@ public class ReadConfig {
         return chromepath;
     }
 
-    public String getFireFox() {
+    public String getFireFoxPath() {
         String firefoxpath = pro.getProperty("firefoxpath");
         return firefoxpath;
     }
