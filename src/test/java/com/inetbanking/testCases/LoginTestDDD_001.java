@@ -6,11 +6,9 @@ import org.openqa.selenium.NoAlertPresentException;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-
 import java.io.IOException;
 
-public class LoginTestDDD_002 extends BaseClass {
+public class LoginTestDDD_001 extends BaseClass {
 
     @Test(dataProvider = "LoginData")
     public void loginDDD(String user, String password) throws InterruptedException {
