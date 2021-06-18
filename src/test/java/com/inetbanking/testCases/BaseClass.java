@@ -17,6 +17,8 @@ import org.testng.annotations.Parameters;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 public class BaseClass {
 
@@ -42,6 +44,7 @@ public class BaseClass {
             System.setProperty("webdriver.gecko.driver", readConfig.getFireFoxPath());
             driver = new FirefoxDriver();
         }
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(baseURL);
     }
 

@@ -78,3 +78,39 @@
 2021-06-15 17:20:20,078 - e-banking -INFO - Entered username
 2021-06-15 17:20:20,131 - e-banking -INFO - Entered password
 2021-06-15 17:20:20,513 - e-banking -INFO - Login test passed
+2021-06-18 13:59:03,270 - e-banking -INFO - URL is opened
+2021-06-18 13:59:03,387 - e-banking -INFO - Entered username
+2021-06-18 13:59:03,442 - e-banking -INFO - Entered password
+2021-06-18 13:59:03,819 - e-banking -INFO - Login test passed
+2021-06-18 15:10:24,193 - e-banking -INFO - URL is opened
+2021-06-18 15:10:24,303 - e-banking -INFO - Entered username
+2021-06-18 15:10:24,358 - e-banking -INFO - Entered password
+2021-06-18 15:10:24,678 - e-banking -INFO - Login test passed
+2021-06-18 15:10:27,294 - e-banking -INFO - user name provided
+2021-06-18 15:10:27,348 - e-banking -INFO - user password provided
+2021-06-18 15:10:27,703 - e-banking -INFO - Submit button has been clicked
+2021-06-18 15:10:27,719 - e-banking -INFO - Login passed
+2021-06-18 15:10:28,273 - e-banking -INFO - user name provided
+2021-06-18 15:10:28,324 - e-banking -INFO - user password provided
+2021-06-18 15:10:28,488 - e-banking -INFO - Submit button has been clicked
+2021-06-18 15:10:28,809 - e-banking -INFO - user name provided
+2021-06-18 15:10:28,856 - e-banking -INFO - user password provided
+2021-06-18 15:10:29,143 - e-banking -INFO - Submit button has been clicked
+2021-06-18 15:10:29,146 - e-banking -INFO - Login passed
+2021-06-18 15:10:29,780 - e-banking -INFO - user name provided
+2021-06-18 15:10:29,831 - e-banking -INFO - user password provided
+2021-06-18 15:10:29,988 - e-banking -INFO - Submit button has been clicked
+2021-06-18 15:18:30,047 - e-banking -INFO - user name provided
+2021-06-18 15:18:30,107 - e-banking -INFO - user password provided
+2021-06-18 15:18:33,651 - e-banking -INFO - Submit button has been clicked
+2021-06-18 15:18:33,669 - e-banking -INFO - Login passed
+2021-06-18 15:18:37,364 - e-banking -INFO - user name provided
+2021-06-18 15:18:37,415 - e-banking -INFO - user password provided
+2021-06-18 15:18:40,581 - e-banking -INFO - Submit button has been clicked
+2021-06-18 15:18:41,070 - e-banking -INFO - user name provided
+2021-06-18 15:18:41,119 - e-banking -INFO - user password provided
+2021-06-18 15:18:44,454 - e-banking -INFO - Submit button has been clicked
+2021-06-18 15:18:44,457 - e-banking -INFO - Login passed
+2021-06-18 15:18:48,113 - e-banking -INFO - user name provided
+2021-06-18 15:18:48,161 - e-banking -INFO - user password provided
+2021-06-18 15:18:51,406 - e-banking -INFO - Submit button has been clicked
