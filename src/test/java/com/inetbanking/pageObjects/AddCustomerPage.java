@@ -21,9 +21,10 @@ public class AddCustomerPage {
 
     @FindBy(name = "name")
     @CacheLookup
-    WebElement txtName;
+    WebElement txtCustomerName;
 
-    @FindBy(how = How.CSS,using = "input[value='m']")
+    //@FindBy(how = How.CSS, using = "input[value='m']")
+    @FindBy(how = How.NAME, using = "rad1")
     @CacheLookup
     WebElement radioGenderMale;
 
@@ -75,8 +76,8 @@ public class AddCustomerPage {
         linkNewCustomer.click();
     }
 
-    public void setName(String name) {
-        txtName.sendKeys(name);
+    public void setUserName(String name) {
+        txtCustomerName.sendKeys(name);
     }
 
     public void setGenderMale() {
@@ -91,7 +92,6 @@ public class AddCustomerPage {
         txtDoB.sendKeys(mm);
         txtDoB.sendKeys(dd);
         txtDoB.sendKeys(yy);
-
     }
 
     public void setAddress(String address) {
@@ -107,7 +107,7 @@ public class AddCustomerPage {
     }
 
     public void setPIN(String pin){
-        txtPIN.sendKeys(pin);
+        txtPIN.sendKeys(String.valueOf(pin));
     }
 
     public void setPhone(String phone) {
@@ -129,5 +129,4 @@ public class AddCustomerPage {
     public void clickReset() {
         btnReset.click();
     }
-
 }
