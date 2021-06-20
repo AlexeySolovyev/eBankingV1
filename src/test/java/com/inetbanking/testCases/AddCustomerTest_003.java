@@ -34,7 +34,7 @@ public class AddCustomerTest_003 extends BaseClass {
         addCustomer.setPassword("qwerty12345");
         addCustomer.clickSubmit();
 
-        Thread.sleep(1000);
+        Thread.sleep(10000);
 
         logger.info("Validation started...");
         boolean isSuccess = driver.getPageSource().contains("Customer Registered Successfully!!!");
