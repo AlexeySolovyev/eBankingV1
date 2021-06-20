@@ -29,12 +29,12 @@ public class AddCustomerTest_003 extends BaseClass {
         addCustomer.setState("New York");
         addCustomer.setPIN("1234567");
         addCustomer.setPhone("9294098909");
-        String email = randomString() + "@testmail.org";
+        String email = randomEmailAlias() + "@testmail.org";
         addCustomer.setEmail(email);
         addCustomer.setPassword("qwerty12345");
         addCustomer.clickSubmit();
 
-        Thread.sleep(10000);
+        Thread.sleep(1000);
 
         logger.info("Validation started...");
         boolean isSuccess = driver.getPageSource().contains("Customer Registered Successfully!!!");
@@ -43,7 +43,7 @@ public class AddCustomerTest_003 extends BaseClass {
             logger.info("Test case passed...");
         } else {
             logger.info("Test case failed...");
-            captureScreen(driver, "addNewUser");
+            captureScreen(driver, "addNewCustomerProcedure");
             Assert.fail();
         }
     }

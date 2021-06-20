@@ -62,11 +62,23 @@ public class BaseClass {
         System.out.println("Screenshot taken");
     }
 
-    public String randomString() {
-        return (RandomStringUtils.randomAlphabetic(6));
+    public String randomCity() {
+        return (RandomStringUtils.randomAlphabetic(9));
     }
 
-    public String randomNumber() {
-        return (RandomStringUtils.randomAlphanumeric(4));
+    public String randomState() {
+        return (RandomStringUtils.randomAlphabetic(8));
+    }
+
+    public String randomEmailAlias() {
+        return (RandomStringUtils.randomAlphabetic(5));
+    }
+
+    public String randomPin() {
+        return (RandomStringUtils.randomNumeric(6));
+    }
+
+    public String randomPhone() {
+        return (RandomStringUtils.randomNumeric(10));
     }
 }

@@ -14,7 +14,7 @@ public class EditCustomerPage {
         PageFactory.initElements(remoteDriver, this);
     }
 
-    @FindBy(xpath = "/html/body/div[2]/div/div/ul/li[3]/a")
+    @FindBy(xpath = "//a[@href='EditCustomer.php']")
     @CacheLookup
     WebElement linkEditCustomer;
 
@@ -100,5 +100,13 @@ public class EditCustomerPage {
 
     public void setEmail(String email) {
         txtEmail.sendKeys(email);
+    }
+
+    public void clickSubmit() {
+        btnSubmit.click();
+    }
+
+    public void clickReset() {
+        btnReset.click();
     }
 }
