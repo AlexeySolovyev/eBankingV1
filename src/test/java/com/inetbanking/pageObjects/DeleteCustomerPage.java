@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 public class DeleteCustomerPage {
 
     WebDriver localDriver;
-    public void deleteCustomerPage(WebDriver remoteDriver) {
+    public DeleteCustomerPage(WebDriver remoteDriver) {
         localDriver = remoteDriver;
         PageFactory.initElements(remoteDriver, this);
     }
