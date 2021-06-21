@@ -79,26 +79,32 @@ public class EditCustomerPage {
     }
 
     public void setAddress(String address) {
+        txtAddress.clear();
         txtAddress.sendKeys(address);
     }
 
     public void setCity(String city) {
+        txtCity.clear();
         txtCity.sendKeys(city);
     }
 
     public void setState(String state) {
+        txtState.clear();
         txtState.sendKeys(state);
     }
 
     public void setPIN(String pin) {
+        txtPIN.clear();
         txtPIN.sendKeys(String.valueOf(pin));
     }
 
     public void setPhone(String phone) {
+        txtPhone.clear();
         txtPhone.sendKeys(phone);
     }
 
     public void setEmail(String email) {
+        txtEmail.clear();
         txtEmail.sendKeys(email);
     }
 

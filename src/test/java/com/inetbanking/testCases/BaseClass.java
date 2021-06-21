@@ -62,6 +62,10 @@ public class BaseClass {
         System.out.println("Screenshot taken");
     }
 
+    public String randomAddress() {
+        return (RandomStringUtils.randomAlphanumeric(18));
+    }
+
     public String randomCity() {
         return (RandomStringUtils.randomAlphabetic(9));
     }

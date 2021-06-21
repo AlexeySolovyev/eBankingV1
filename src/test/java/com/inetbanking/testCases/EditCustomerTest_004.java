@@ -43,7 +43,8 @@ public class EditCustomerTest_004 extends BaseClass {
             Assert.fail();
         }
         logger.info("New Customer Data filling...");
-        editCustomer.setAddress("112 West End Ave Aurora Chicago USA");
+        String address = randomAddress();
+        editCustomer.setAddress(address);
         String city = randomCity();
         editCustomer.setCity(city);
         String state = randomState();
