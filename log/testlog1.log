@@ -114,3 +114,95 @@
 2021-06-18 15:18:48,113 [main] INFO e-banking - user name provided
 2021-06-18 15:18:48,161 [main] INFO e-banking - user password provided
 2021-06-18 15:18:51,406 [main] INFO e-banking - Submit button has been clicked
+2021-06-20 20:26:27,430 [main] INFO e-banking - URL is opened
+2021-06-20 20:26:27,541 [main] INFO e-banking - Entered username
+2021-06-20 20:26:27,593 [main] INFO e-banking - Entered password
+2021-06-20 20:26:27,924 [main] INFO e-banking - Login test passed
+2021-06-20 20:26:30,094 [main] INFO e-banking - User name is provided
+2021-06-20 20:26:30,148 [main] INFO e-banking - User password is provided
+2021-06-20 20:26:30,677 [main] INFO e-banking - Fill user details...
+2021-06-20 20:26:32,673 [main] INFO e-banking - Validation started...
+2021-06-20 20:26:32,685 [main] INFO e-banking - Test case passed...
+2021-06-20 20:26:34,822 [main] INFO e-banking - User name is provided
+2021-06-20 20:26:34,872 [main] INFO e-banking - User password is provided
+2021-06-20 20:26:35,184 [main] INFO e-banking - Successfully logged to the system
+2021-06-20 20:26:35,442 [main] INFO e-banking - Customer ID is provided
+2021-06-20 20:26:35,694 [main] INFO e-banking - Successfully validated CustomerID
+2021-06-20 20:26:35,694 [main] INFO e-banking - New Customer Data filling...
+2021-06-20 20:29:21,087 [main] INFO e-banking - User name is provided
+2021-06-20 20:29:21,146 [main] INFO e-banking - User password is provided
+2021-06-20 20:29:21,457 [main] INFO e-banking - Successfully logged to the system
+2021-06-20 20:29:21,720 [main] INFO e-banking - Customer ID is provided
+2021-06-20 20:29:21,969 [main] INFO e-banking - Successfully validated CustomerID
+2021-06-20 20:29:21,969 [main] INFO e-banking - New Customer Data filling...
+2021-06-20 20:32:51,324 [main] INFO e-banking - User name is provided
+2021-06-20 20:32:51,381 [main] INFO e-banking - User password is provided
+2021-06-20 20:32:51,730 [main] INFO e-banking - Successfully logged to the system
+2021-06-20 20:32:52,004 [main] INFO e-banking - Customer ID is provided
+2021-06-20 20:32:52,261 [main] INFO e-banking - Successfully validated CustomerID
+2021-06-20 20:32:52,261 [main] INFO e-banking - New Customer Data filling...
+2021-06-20 20:33:32,388 [main] INFO e-banking - User name is provided
+2021-06-20 20:33:32,447 [main] INFO e-banking - User password is provided
+2021-06-20 20:33:32,750 [main] INFO e-banking - Successfully logged to the system
+2021-06-20 20:33:32,996 [main] INFO e-banking - Customer ID is provided
+2021-06-20 20:33:33,246 [main] INFO e-banking - Successfully validated CustomerID
+2021-06-20 20:33:33,246 [main] INFO e-banking - New Customer Data filling...
+2021-06-20 20:34:20,002 [main] INFO e-banking - User name is provided
+2021-06-20 20:34:20,061 [main] INFO e-banking - User password is provided
+2021-06-20 20:34:20,432 [main] INFO e-banking - Successfully logged to the system
+2021-06-20 20:34:20,696 [main] INFO e-banking - Customer ID is provided
+2021-06-20 20:34:20,909 [main] INFO e-banking - Successfully validated CustomerID
+2021-06-20 20:34:20,909 [main] INFO e-banking - New Customer Data filling...
+2021-06-20 20:35:33,600 [main] INFO e-banking - User name is provided
+2021-06-20 20:35:33,657 [main] INFO e-banking - User password is provided
+2021-06-20 20:35:33,955 [main] INFO e-banking - Successfully logged to the system
+2021-06-20 20:35:34,200 [main] INFO e-banking - Customer ID is provided
+2021-06-20 20:35:34,433 [main] INFO e-banking - Successfully validated CustomerID
+2021-06-20 20:35:34,434 [main] INFO e-banking - New Customer Data filling...
+2021-06-20 20:36:01,202 [main] INFO e-banking - User name is provided
+2021-06-20 20:36:01,259 [main] INFO e-banking - User password is provided
+2021-06-20 20:36:01,569 [main] INFO e-banking - Successfully logged to the system
+2021-06-20 20:36:01,809 [main] INFO e-banking - Customer ID is provided
+2021-06-20 20:36:02,068 [main] INFO e-banking - Successfully validated CustomerID
+2021-06-20 20:36:02,069 [main] INFO e-banking - New Customer Data filling...
+2021-06-20 20:36:30,396 [main] INFO e-banking - User name is provided
+2021-06-20 20:36:30,454 [main] INFO e-banking - User password is provided
+2021-06-20 20:36:30,802 [main] INFO e-banking - Successfully logged to the system
+2021-06-20 20:36:31,044 [main] INFO e-banking - Customer ID is provided
+2021-06-20 20:36:31,258 [main] INFO e-banking - Successfully validated CustomerID
+2021-06-20 20:36:31,259 [main] INFO e-banking - New Customer Data filling...
+2021-06-20 20:36:57,067 [main] INFO e-banking - User name is provided
+2021-06-20 20:36:57,124 [main] INFO e-banking - User password is provided
+2021-06-20 20:36:57,467 [main] INFO e-banking - Successfully logged to the system
+2021-06-20 20:36:57,758 [main] INFO e-banking - Customer ID is provided
+2021-06-20 20:36:57,979 [main] INFO e-banking - Successfully validated CustomerID
+2021-06-20 20:36:57,980 [main] INFO e-banking - New Customer Data filling...
+2021-06-20 20:39:46,000 [main] INFO e-banking - User name is provided
+2021-06-20 20:39:46,056 [main] INFO e-banking - User password is provided
+2021-06-20 20:39:46,362 [main] INFO e-banking - Successfully logged to the system
+2021-06-20 20:39:46,606 [main] INFO e-banking - Customer ID is provided
+2021-06-20 20:39:46,824 [main] INFO e-banking - Successfully validated CustomerID
+2021-06-20 20:39:46,825 [main] INFO e-banking - New Customer Data filling...
+2021-06-20 20:42:58,407 [main] INFO e-banking - User name is provided
+2021-06-20 20:42:58,465 [main] INFO e-banking - User password is provided
+2021-06-20 20:42:58,805 [main] INFO e-banking - Successfully logged to the system
+2021-06-20 20:42:59,050 [main] INFO e-banking - Customer ID is provided
+2021-06-20 20:42:59,267 [main] INFO e-banking - Successfully validated CustomerID
+2021-06-20 20:42:59,268 [main] INFO e-banking - New Customer Data filling...
+2021-06-20 20:43:01,098 [main] INFO e-banking - Test case passed..
+2021-06-20 20:43:28,624 [main] INFO e-banking - URL is opened
+2021-06-20 20:43:28,738 [main] INFO e-banking - Entered username
+2021-06-20 20:43:28,792 [main] INFO e-banking - Entered password
+2021-06-20 20:43:29,076 [main] INFO e-banking - Login test passed
+2021-06-20 20:43:31,110 [main] INFO e-banking - User name is provided
+2021-06-20 20:43:31,163 [main] INFO e-banking - User password is provided
+2021-06-20 20:43:31,698 [main] INFO e-banking - Fill user details...
+2021-06-20 20:43:33,638 [main] INFO e-banking - Validation started...
+2021-06-20 20:43:33,650 [main] INFO e-banking - Test case passed...
+2021-06-20 20:43:35,742 [main] INFO e-banking - User name is provided
+2021-06-20 20:43:35,795 [main] INFO e-banking - User password is provided
+2021-06-20 20:43:36,139 [main] INFO e-banking - Successfully logged to the system
+2021-06-20 20:43:36,382 [main] INFO e-banking - Customer ID is provided
+2021-06-20 20:43:36,594 [main] INFO e-banking - Successfully validated CustomerID
+2021-06-20 20:43:36,594 [main] INFO e-banking - New Customer Data filling...
+2021-06-20 20:43:38,408 [main] INFO e-banking - Test case passed..
